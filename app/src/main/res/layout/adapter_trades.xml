@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/trades_date"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#292929"
+            app:fontFamily="@font/roboto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="22/22/2222" />
+
+        <TextView
+            android:id="@+id/trades_label_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/trade_msg_5"
+            android:textAllCaps="true"
+            android:textColor="#313131"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divisor_2" />
+
+        <TextView
+            android:id="@+id/trades_label_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/trade_msg_2"
+            android:textAllCaps="true"
+            android:textColor="#313131"
+            app:layout_constraintEnd_toStartOf="@+id/trades_label_4"
+            app:layout_constraintStart_toEndOf="@+id/trades_label_2"
+            app:layout_constraintTop_toTopOf="@+id/trades_label_2" />
+
+        <TextView
+            android:id="@+id/trades_label_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/trade_msg_3"
+            android:textAllCaps="true"
+            android:textColor="#313131"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/trades_label_3" />
+
+        <TextView
+            android:id="@+id/trades_type"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:textColor="#4c4c4c"
+            android:textSize="12sp"
+            app:fontFamily="@font/roboto"
+            app:layout_constraintBottom_toBottomOf="@+id/trades_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trades_label_2"
+            tools:text="000000000" />
+
+        <TextView
+            android:id="@+id/trades_value"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#4c4c4c"
+            android:textSize="12sp"
+            app:fontFamily="@font/roboto"
+            app:layout_constraintBottom_toBottomOf="@+id/trades_price"
+            app:layout_constraintEnd_toStartOf="@+id/trades_price"
+            app:layout_constraintStart_toEndOf="@+id/trades_type"
+            app:layout_constraintTop_toBottomOf="@+id/trades_label_2"
+            tools:text="000000000" />
+
+        <TextView
+            android:id="@+id/trades_price"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="right"
+            android:textAllCaps="true"
+            android:textColor="#4c4c4c"
+            android:textSize="12sp"
+            app:fontFamily="@font/roboto"
+            app:layout_constraintBottom_toBottomOf="@+id/divisor_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trades_label_2"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="000000000" />
+
+        <View
+            android:id="@+id/divisor_1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:background="#d4d4d4"
+            app:layout_constraintBottom_toTopOf="@+id/trades_remove"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/divisor_2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#d4d4d4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trades_date" />
+
+        <TextView
+            android:id="@+id/trades_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/ic_delete"
+            android:gravity="center"
+            android:text="@string/trade_msg_4"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/trades_edit"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:drawableLeft="@drawable/ic_edit"
+            android:gravity="center"
+            android:text="@string/trade_msg_6"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

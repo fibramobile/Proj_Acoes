@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC">
+
+    <TextView
+        android:id="@+id/hint_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/registry_msg_0"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/registry_action"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hint_0" />
+
+    <ImageView
+        android:id="@+id/spinner_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/registry_msg_0"
+        app:layout_constraintBottom_toBottomOf="@+id/registry_action"
+        app:layout_constraintEnd_toEndOf="@+id/registry_action"
+        app:layout_constraintTop_toTopOf="@+id/registry_action"
+        app:srcCompat="@drawable/spinner_arrow" />
+
+    <TextView
+        android:id="@+id/hint_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/registry_msg_1"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registry_action" />
+
+    <EditText
+        android:id="@+id/registry_price"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_background"
+        android:drawableLeft="@drawable/ic_money"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hint_1"
+        tools:text="Hello word" />
+
+    <TextView
+        android:id="@+id/hint_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/registry_msg_2"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registry_price" />
+
+    <EditText
+        android:id="@+id/registry_value"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_background"
+        android:drawableLeft="@drawable/ic_money"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hint_2"
+        tools:text="Hello word" />
+
+    <TextView
+        android:id="@+id/hint_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/registry_msg_3"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registry_value" />
+
+    <EditText
+        android:id="@+id/registry_date"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_background"
+        android:ems="10"
+        android:inputType="text|date"
+        android:padding="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/registry_date_picker"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hint_3"
+        tools:text="Hello word" />
+
+    <RadioGroup
+        android:id="@+id/registry_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:checkedButton="@+id/registry_buy"
+        android:orientation='horizontal'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registry_date">
+
+        <RadioButton
+            android:id="@+id/registry_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/registry_msg_4" />
+
+        <RadioButton
+            android:id="@+id/registry_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/registry_msg_5" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/registry_finish"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="@string/fragment_title_registry"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registry_group"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/registry_date_picker"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorAccent"
+        android:tint="#FFF"
+        app:layout_constraintBottom_toBottomOf="@+id/registry_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/registry_date"
+        app:srcCompat="@drawable/ic_date" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Acões</string>
+
+    <string name="menu_open">Open</string>
+    <string name="menu_close">Close</string>
+
+    <string name="registry_msg_0">Ação</string>
+    <string name="registry_msg_1">Preço da ação</string>
+    <string name="registry_msg_2">Valor</string>
+    <string name="registry_msg_3">Data (DD/MM/YYYY)</string>
+    <string name="registry_msg_4">Compra</string>
+    <string name="registry_msg_5">Venda</string>
+    <string name="registry_msg_6">Editar</string>
+
+    <string name="registry_val_0">Digite o preço da ação</string>
+    <string name="registry_val_1">Digite o preço da ação válido</string>
+    <string name="registry_val_2">Digite o valor</string>
+    <string name="registry_val_3">Digite o valor válido</string>
+    <string name="registry_val_4">Digite a data</string>
+    <string name="registry_val_5">Digite o data válida</string>
+    <string name="registry_val_6">Registrado com sucesso</string>
+    <string name="registry_val_7">Salvo com sucesso</string>
+
+    <string name="update_msg_0">Ação</string>
+    <string name="update_msg_1">V1</string>
+    <string name="update_msg_2">V2</string>
+    <string name="update_msg_3">V3</string>
+    <string name="update_msg_4">Data (DD/MM/YYYY)</string>
+    <string name="update_msg_5">Venda</string>
+    <string name="update_msg_6">Editar</string>
+
+    <string name="update_val_0">Digite o V1</string>
+    <string name="update_val_1">Digite o V1 válido</string>
+    <string name="update_val_2">Digite o V2</string>
+    <string name="update_val_3">Digite o V2 válido</string>
+    <string name="update_val_4">Digite o V3</string>
+    <string name="update_val_5">Digite o V3 válido</string>
+    <string name="update_val_6">Digite a data</string>
+    <string name="update_val_7">Digite o data válida</string>
+    <string name="update_val_8">Atualizado com sucesso</string>
+    <string name="update_val_9">Editado com sucesso</string>
+    <string name="update_val_10">É necessário registrar pelo menos uma ação!</string>
+
+    <string name="home_msg_0">Preço</string>
+    <string name="home_msg_1">Média</string>
+    <string name="home_msg_2">Valor</string>
+    <string name="home_msg_3">Média V</string>
+    <string name="home_msg_4">Visualizar</string>
+    <string name="home_msg_5">Histórico</string>
+
+    <string name="trade_msg_0">Venda</string>
+    <string name="trade_msg_1">Compra</string>
+    <string name="trade_msg_2">Valor</string>
+    <string name="trade_msg_3">Preço</string>
+    <string name="trade_msg_4">Remover</string>
+    <string name="trade_msg_5">Tipo</string>
+    <string name="trade_msg_6">Editar</string>
+    <string name="trade_msg_7">Deseja remover?</string>
+
+    <string name="varying_msg_0">V1</string>
+    <string name="varying_msg_1">V2</string>
+    <string name="varying_msg_2">V3</string>
+    <string name="varying_msg_3">Remover</string>
+    <string name="varying_msg_4">Editar</string>
+    <string name="varying_msg_5">Deseja remover?</string>
+
+    <string name="lucro_0">Ativo</string>
+    <string name="lucro_1">Lucro Percentual</string>
+    <string name="lucro_2">Valor Lucro</string>
+
+    <string name="radar_0">Adicionar</string>
+    <string name="radar_1">Ação</string>
+    <string name="radar_2">Cotação</string>
+    <string name="radar_3">Voltar</string>
+
+    <string name="menu_update">Atualizar Cotação</string>
+
+    <string name="fragment_title_home">Inicio</string>
+    <string name="fragment_title_registry">Registrar</string>
+    <string name="fragment_title_update">Atualizar</string>
+    <string name="fragment_title_trade">Trade</string>
+    <string name="fragment_title_lucro">Lucro pós venda</string>
+    <string name="fragment_title_busca">Relátorio</string>
+    <string name="fragment_title_radar">Radar</string>
+
+    <string name="backup_title">Backup</string>
+
+    <string name="backup_msg_0">Gerenciamento de backup</string>
+    <string name="backup_msg_1">Salvar backup</string>
+    <string name="backup_msg_2">Baixar backup</string>
+    <string name="backup_msg_3">Será deletado os dados salvos no dispositivo, deseja prosseguir ?</string>
+    <string name="backup_msg_4">Erro ao baixar o arquivo</string>
+    <string name="backup_msg_5">Backup Restaurado com sucesso!</string>
+    <string name="backup_msg_6">Faça login para acessar!</string>
+    <string name="backup_msg_7">Erro ao fazer login!</string>
+    <string name="backup_msg_8">Sem backup!</string>
+    <string name="backup_msg_9">Erro ao importar o backup!</string>
+    <string name="backup_msg_10">Backup realizado com sucesso!</string>
+    <string name="backup_msg_11">Erro ao realizar o backup!</string>
+    <string name="fragment_title_search">Buscar</string>
+
+
+</resources>

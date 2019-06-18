@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/fragment_title_home" />
+        <item
+            android:id="@+id/menu_lucro"
+            android:icon="@drawable/ic_lucro"
+            android:title="@string/fragment_title_lucro" />
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/fragment_title_search" />
+        <item
+            android:id="@+id/menu_radar"
+            android:icon="@drawable/ic_radar"
+            android:title="@string/fragment_title_radar" />
+        <item
+            android:id="@+id/menu_update"
+            android:icon="@drawable/ic_update"
+            android:title="@string/fragment_title_update"/>
+
+        <item
+            android:id="@+id/menu_busca"
+            android:icon="@drawable/ic_relatorio"
+            android:title="@string/fragment_title_busca"/>
+
+        <item
+            android:id="@+id/menu_backup"
+            android:icon="@drawable/ic_backup"
+            android:title="@string/backup_title" />
+    </group>
+</menu>
